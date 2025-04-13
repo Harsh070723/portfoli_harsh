@@ -7,7 +7,7 @@ import { ExperienceList } from '../js/ExperienceList'
 export default function Resume() {
   const handleViewResume = () => {
     // This opens the resume PDF in a new browser tab
-    window.open('/public/HarshResume.pdf', '_blank');
+    window.open('/HarshResume.pdf', '_blank');
   };
   return (
     <>
