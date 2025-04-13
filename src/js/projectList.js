@@ -5,14 +5,14 @@ import project4 from"./../assets/Images/projectsImg/project4.jpg"
 
 export const ProjectList=[
     {
-        title:'Real Estate Analysis Dashboard',
+        title:'Social Media Analysis',
         projectImg:`${project1}`,
         discription:`This project is a simulated Social Media Analytics Dashboard to help businesses 
         track their performance across platforms like Facebook, Instagram, Linkedin, and Twitter. I designed the dataset tow mimic real-world scenarios, including metrics like reach, impressions, engagements, and clicks over time. The goal was to provide actionable insights into which platforms and content types drive the most engagement, helping marketers make better decisions.
          I used Power BI for its strong data modeling and visualization capabilities, and I focused on clean design and usability`
     },
     {
-        title:'Real Estate Analysis Dashboard',
+        title:'title : Real Estate Analysis Dashboard',
         projectImg:`${project2}`,
         discription:`This interactive Power BI dashboard provides a comprehensive analysis of the US real 
         estate market, helping stakeholders make data-driven decisions. The dashboard includes key metrics such as average
