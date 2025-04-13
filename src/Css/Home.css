@@ -1,0 +1,213 @@
+#Hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: black;
+}
+
+#Hero .h-box{
+    width: 50%;
+    border-radius: 50%;
+}
+#Hero .h-box .details-con  .sub-head{
+    color: cyan;
+}
+#Hero .h-box .details-con .head-text {
+  
+    padding: 1rem 0;
+}
+#Hero .h-box .details-con .head-text h1 .style{
+    color: #fff;
+}
+#Hero .h-box .details-con .head-text h1{
+    color:#b1ddf1;
+    font-weight: 700;
+    font-size: clamp(60px,5vw,96px);
+    
+    line-height: 1;
+}
+#Hero  .profile-img-con{
+width: 350px;
+height: 350px;
+overflow: hidden;
+border-radius: 50%;
+background-color: rgb(185, 182, 182);
+box-shadow: 2px 2px 4px 4px rgb(175, 174, 174);
+padding: 6px;
+}
+#Hero  .profile-img-con img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+#Hero .details-con .profession h2{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Poppins',sans-serif;
+}
+#Hero .details-con  .para-text-con{
+    color: white;
+    padding: 1.5rem 0;
+    font-size: 18px;
+}
+#Hero .details-con .btn-con .work-btn{
+    padding: 8px 20px;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+#Hero .details-con .btn-con .work-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* About section */
+
+#About .head-group {
+    text-align: center;
+}
+#About .head-group h1{
+    text-align: center;
+    color: white;
+    font-size: clamp(30px,5vw,50px);
+}
+#About .head-group .about-text-con p{
+    color: white;
+    font-size: 16px;
+    padding:1em 0 ;
+    text-align: center;
+    line-height: 2;
+}
+#About .head-group .l-btn{
+    padding: 1rem 2rem;
+    margin: 1rem  0;
+    color: balck;
+    display: inline-block;
+    background-color: #b1ddf1;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+
+/* Resume secttion */
+
+#Resume .container .para-text-con{
+    padding: 1rem 1rem;
+    color: gray;
+}
+
+
+#Resume .container   .row-divider{
+    width: 100%;
+    height: 2px;
+    margin: 1rem 0;
+    background: linear-gradient(to right,rgb(99, 14, 179),gray);
+    border-radius: 20px;
+}
+/* #Resume .container  .row .row-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(350px,1fr));
+    gap: 20px;
+} */
+#Resume .container  .row .row-box .card-box{
+    background-color: rgba(201, 198, 198, 0.1);
+    padding: 5px;
+}
+#Resume .container  .row .row-box .card-box  .card{
+    padding: 1rem;
+    border-radius: 3px;
+}
+#Resume .container  .row .row-box .card-box  .card >ul{
+    padding-left: 20px;
+}
+#Resume .container  .row .row-box .card-box  .card >ul li{
+    color:#999999;
+}
+#Resume .container  .row .row-box .card-box  .card .date{
+    color: #b1ddf1;
+    font-size: 20px;
+    font-weight: 900;
+}
+#Resume .container  .row .row-box .card-box  .card .job-type{
+    color: white;
+    font-weight: 400;
+}
+#Resume .container  .row .row-box .card-box  .card .role-position{
+    color: #999999;
+}
+/* project  */
+
+#Projects .container .head-group .para-text-con{
+    color: #999999;
+    font-size: 14px;
+    padding: 1rem 0;
+} 
+#Projects .container  .wrapper{
+    padding: 2rem 0;
+}
+#Projects .container .grid-container{
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+ /* align-items: center; */
+  justify-content: center;
+}
+
+
+/* cccontact */
+
+
+#Contact .wrapper .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(200px,1fr));
+    gap: 10px;
+
+
+}
+#Contact .wrapper{
+    padding: 5em 0;
+}
+#Contact .container .wrapper .grid-container .card-box .i{
+    color: white;
+    background-color: #2b2929;
+    border-radius: 50%;
+    padding: 2rem;
+    overflow: visible;
+    font-size: 35px;
+}
+#Contact .container .wrapper .grid-container .card-box{
+    text-align: center;
+    padding: 10px 5px;
+    word-wrap: break-word;
+}
+/* gthub banner */
+.github-banner .head-group .github-btn{
+    color: black;
+    padding: 10px 15px;
+    background-color: #b1ddf1;
+    text-decoration: none;
+    margin: 2rem 0;
+    border-radius: 35px;
+    display: inline-flex;
+}
+.github-banner{
+    position: relative;
+}
+.github-banner .head-group .head-text .topic{
+    /* font-size: 25px; */
+    font-weight: 600;
+}
+.github-banner::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('https://saxena-kashish.github.io/images/bgd.jpg') no-repeat center center/cover;
+    z-index: -1;
+
+} 

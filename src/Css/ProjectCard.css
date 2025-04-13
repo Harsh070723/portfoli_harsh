@@ -1,0 +1,30 @@
+
+
+.p-card .img-con{
+    width: 100%;
+    overflow: hidden;
+}
+.p-card .img-con img{
+    height: 230px;
+    width: 100%;
+    transition: all 0.4s ease;
+
+}
+.p-card .img-con img:hover{
+    transform: scale(1.1);
+}
+.p-card{
+    margin: 10px ;
+    /* width:350px; */
+}
+.p-card .head-group{
+    padding: 5px 0;
+}
+.p-card .head-group .tittle{
+    font-size: 20px;
+    color: white;
+}
+.p-card  .para-text-con p{
+    font-size: 16px;
+    color:rgb(133, 126, 126);
+}

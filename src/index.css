@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Poppins:ital,wght@0,100;0,300;0,600;0,700;0,800;0,900;1,300;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins",sans-serif;
+scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+}
+.justfy-content-center{
+  text-align: center;
+}
+ .head-group .para-text-con{
+  color: #9999;
+}
+
+section{
+  padding: 2em 0;
+  min-height: 80vh;
+
+}
+.container-row{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  margin: auto;
+  padding: 5em 0;
+}
+.btn-to-link{
+  padding: 8px 2rem;
+  margin: 1rem  0;
+  border-color: transparent;
+  outline: none;
+  color: balck;
+  display: inline-block;
+  background-color: #b1ddf1;
+  border-radius: 40px;
+  text-decoration: none;
+}
+.tittle{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sub-topic{
+  font-size: clamp(40px ,5vw,50px);
+font-weight: 400;
+color: white;
+}
+.topic{
+  color: white;
+  font-size: clamp(30px ,5vw,50px);
+}
+@media screen and (min-width:1400px) {
+  #Hero .container-row{
+    justify-content: space-between;
+  }
+  .container{
+    width: 1200px;
+  }
+  .container-row{
+    width: 1200px;
+  }
+ }
+ @media screen and (max-width:1400px){
+  .all-page-container section{
+    margin: 0 2em;
+  }
+ }
+ .row .row-box{
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(350px,1fr));
+    gap: 20px;
+
+}
+
+ @media screen and (max-width:950px){
+    .row .row-box{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+  .container-row{
+    display: flex;
+   width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  #Hero .container-row .h-box{
+    width: 95%;
+  }
+  
+
+
+ }
+
+ .grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+  gap: 10px;
+  flex-wrap: wrap;
+ }
+
+
+ @media screen and (max-width:680px) {
+  #Hero .container-row .profile-img-con{
+    width: 260px;
+    height: 260px;
+  }
+ }
+
+
+ @media  screen and (max-width:1400px) {
+  #Hero .container-row{
+    justify-content: space-around;
+  }
+  
+ }

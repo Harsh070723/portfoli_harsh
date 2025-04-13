@@ -1,0 +1,111 @@
+.main-menu-con{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 0px;
+    justify-content: center;
+    transition: all  0.3s ease-out;
+}
+.main-menu-con.sticky{
+   
+    behavior: smooth;
+    position: sticky;
+    transition: all  0.5s ease-out;
+
+    top: 0;
+}
+.menu .logo{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.menu{
+    margin: 0px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 10px 0px; */
+    justify-content: space-between;
+}
+.menu .menu-list >ul li{
+    /* position: srelative; */
+    display: inline-block;
+    list-style: none;
+}
+.menu .menu-list >ul li:hover a .text::before{
+    scale: 1;
+
+}
+.menu .menu-list >ul li a .text::before{
+    content: '';
+    background-color: cyan;
+    position: absolute;
+    width: 100%;
+    scale: 0;
+    padding: 1px 2px;
+    /* padding-top: 2px; */
+    transition: all 0.3s ease-in-out;
+    bottom: 0;
+    border-radius: 20px;
+}
+.menu .menu-list >ul li a .text{
+    padding-bottom: 2px;
+    position: relative;
+} 
+.menu .menu-list >ul li a{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+@media screen and (min-width:1400px) {
+    .main-menu-con .menu{
+       width: 1200px;
+     }  
+   }
+#menu{
+    display: none;
+}
+.menu .l-menu{
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width:850px){
+     
+    #menu:checked ~ .menu-list{
+        max-height: 100vh;
+    }
+     .main-menu-con.sticky{
+    background-color: rgb(27, 23, 23);
+     
+     }
+    .menu .menu-list{
+        position: absolute;
+        top: 100%;
+        max-height: 0;
+        width: 100%;
+        overflow: hidden;
+        left: 0;
+        transition: all 0.3s ease-in-out;
+        background-color: black;
+        /* padding: 1rem 0; */
+
+    }
+    .menu .menu-list >ul{
+        padding: 5px;
+    }
+    .menu .menu-list >ul li{
+        display: block;
+
+    }
+    .menu .l-menu{
+        display: block;
+    } 
+   }
