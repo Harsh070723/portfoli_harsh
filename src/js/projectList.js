@@ -12,7 +12,7 @@ export const ProjectList=[
          I used Power BI for its strong data modeling and visualization capabilities, and I focused on clean design and usability`
     },
     {
-        title:'title : Real Estate Analysis Dashboard',
+        title:'Real Estate Analysis Dashboard',
         projectImg:`${project2}`,
         discription:`This interactive Power BI dashboard provides a comprehensive analysis of the US real 
         estate market, helping stakeholders make data-driven decisions. The dashboard includes key metrics such as average
