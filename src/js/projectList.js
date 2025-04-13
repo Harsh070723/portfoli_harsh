@@ -12,13 +12,6 @@ export const ProjectList=[
          I used Power BI for its strong data modeling and visualization capabilities, and I focused on clean design and usability`
     },
     {
-        title:'Real Estate Analysis Dashboard',
-        projectImg:`${project2}`,
-        discription:`This interactive Power BI dashboard provides a comprehensive analysis of the US real 
-        estate market, helping stakeholders make data-driven decisions. The dashboard includes key metrics such as average
-         property prices, price trends by state, property types, and overall market performance. Users can explore data through intuitive visualizations, slicers, and dynamic charts that offer a deep dive into real estate trends across the country.
-        `
-    },{
         title:'Indian Tax System Insights Dashboard – FY 2023–24',
         projectImg:`${project3}`,
         discription:`
@@ -27,6 +20,14 @@ for the financial year 2023–24. Built on a dataset of simulated taxpayer recor
 income distribution, filing trends, deduction utilization, and refund statuses.
         `
     },
+    {
+        title:'US Real Estate Analysis Dashboard',
+        projectImg:`${project2}`,
+        discription:`This interactive Power BI dashboard provides a comprehensive analysis of the US real 
+        estate market, helping stakeholders make data-driven decisions. The dashboard includes key metrics such as average
+         property prices, price trends by state, property types, and overall market performance. Users can explore data through intuitive visualizations, slicers, and dynamic charts that offer a deep dive into real estate trends across the country.
+        `
+    }
 //     {
 //         title:' E-Commerce Sales Insights Dashboard (Power BI + SQL)',
 //         projectImg:`${project4}`,
